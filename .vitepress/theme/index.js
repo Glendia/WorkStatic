@@ -3,6 +3,7 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './styles/custom.css'
+import './styles/fonts.css'
 
 /** @type {import('vitepress').Theme} */
 export default {

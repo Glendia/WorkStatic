@@ -21,7 +21,7 @@
 }
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #ba58f9);
 }
 /* Color Base */
 :root {
@@ -52,11 +52,11 @@
 /* .vitepress/theme/custom.css */
 :root {
   --vp-c-brand-1: #326ffd;
-  --vp-c-brand-2: #5b8cfd;
-  --vp-c-brand-3: #84a9fe;
+  --vp-c-brand-2: #234eb1;
+  --vp-c-brand-3: #19387f;
 }
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-font-family-base: /* normal text font */
-  --vp-font-family-mono: /* code font */
+  --vp-font-family-base: 'DingTalk'/* normal text font */
+  --vp-font-family-mono: 'DingTalk'/* code font */
 }
