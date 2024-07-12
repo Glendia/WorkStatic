@@ -18,8 +18,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
     ],
     footer: {
-      message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559</a>',
-      copyright: 'Copyright © 2022-now WorkStatic All Rights Reserved.'
+      message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559号</a>',
+      copyright: 'Copyright © 2022-${new Date().getFullYear()}  <a href="/">WorkStatic</a> All Rights Reserved.'
     }
   }
 })
