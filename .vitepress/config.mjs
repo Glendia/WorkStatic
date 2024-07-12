@@ -5,8 +5,18 @@ export default defineConfig({
   title: "WorkStatic",
   titleTemplate:':title - 免费CDN内容分发托管平台',
   description: "免费CDN内容分发托管平台",
-  head: [['link', { rel: 'icon', href: '/images/hero.svg' }]],
+  head: [
+  ['link', { rel: 'icon', href: '/images/hero.svg' }],
+  ['meta', {name:'keywords', content:'cdn,在线字体，免费托管，在线加速，vue，图床'}]
+  ],
+  ignoreDeadLinks: true,
+  metaChunk: true,
+  sitemap: {
+    hostname: 'https://www.workstatic.cn/',
+    lastmodDateOnly: false
+  }, 
   themeConfig: {
+  logo: '/images/hero.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/guide/' },
