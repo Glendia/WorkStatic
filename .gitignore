@@ -1,0 +1,5 @@
+# 忽略.vitepress下的cache和dist目录
+.vitepress/cache
+.vitepress/dist
+# 忽略node_modules目录
+node_modules
