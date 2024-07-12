@@ -10,7 +10,7 @@ export default defineConfig({
       { text: '文档', link: '/guide/' },
       { text: '资源', link: '/sources/'},
       { text: '关于', link: '/about/'},
-      { text: '讨论', link: 'https://github.com/glendia/workstatic/iesssues'}
+      { text: '讨论', link: 'https://github.com/Glendia/WorkStatic/issues'}
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
