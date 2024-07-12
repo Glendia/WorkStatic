@@ -3,6 +3,7 @@ export default defineConfig({
   base: '/',
   lang: 'zh-CN',
   title: "WorkStatic",
+  titleTemplate:':title - 免费CDN内容分发托管平台',
   description: "免费CDN内容分发托管平台",
   head: [['link', { rel: 'icon', href: '/images/hero.svg' }]],
   themeConfig: {
@@ -15,6 +16,10 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
-    ]
+    ],
+    footer: {
+      message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559</a>',
+      copyright: 'Copyright © 2022-now WorkStatic All Rights Reserved.'
+    }
   }
 })
