@@ -6,8 +6,8 @@ export const nav =[
         items: [
           {
             items: [
-              { text: '字体', link: '/web/fonts/' },
-              { text: '脚本', link: '/web/js/' }
+              { text: '✒️字体', link: '/sources/fonts' },
+              { text: '🧰脚本', link: '/sources/js' }
             ]
           }
         ]
