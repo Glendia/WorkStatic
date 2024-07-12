@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "WorkStatic",
   description: "免费CDN内容分发托管平台",
+  head: [['link', { rel: 'icon', href: '/images/hero.svg' }]],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
