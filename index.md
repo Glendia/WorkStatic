@@ -1,6 +1,5 @@
 ---
 layout: home
-
 hero:
   name: "WorkStatic"
   text: "免费CDN内容分发托管平台"
@@ -13,7 +12,6 @@ hero:
     - theme: alt
       text: 资源
       link: /sources/
-
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -24,7 +22,7 @@ features:
 ---
 
 <script setup>
-  import Home from'./Home.vue'
+  import Home from './Home.vue'
 </script>
 
 <Home />
