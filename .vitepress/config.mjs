@@ -1,14 +1,20 @@
 import { defineConfig } from 'vitepress'
+//import {algolia} from "./js/algolia.js";
+//import {carbonAds} from "./js/carbonAds.js";
+//import { footer } from "./js/footer.js";
+import { head } from "./js/head.js";
+import { nav } from "./js/nav.js";
+//import { search } from "./js/search.js";
+//import { sidebar } from "./js/sidebar.js";
+//import { socialLinks } from "./js/socialLinks.js";
+//import { markdown } from "./js/markdown.js";
 export default defineConfig({
   base: '/',
   lang: 'zh-CN',
   title: "WorkStatic",
   titleTemplate:':title - 免费CDN内容分发托管平台',
   description: "免费CDN内容分发托管平台",
-  head: [
-  ['link', { rel: 'icon', href: '/images/hero.svg' }],
-  ['meta', {name:'keywords', content:'cdn,在线字体，免费托管，在线加速，vue，图床'}]
-  ],
+  head: head,
   ignoreDeadLinks: true,
   metaChunk: true,
   sitemap: {
@@ -17,13 +23,7 @@ export default defineConfig({
   }, 
   themeConfig: {
   logo: '/images/hero.svg',
-    nav: [
-      { text: '🏠首页', link: '/' },
-      { text: '📑文档', link: '/guide/' },
-      { text: '🛠️资源', link: '/sources/'},
-      { text: '❤️关于', link: '/about/'},
-      { text: '🔥讨论', link: 'https://github.com/Glendia/WorkStatic/issues'}
-    ],
+    nav: nav,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
     ],
