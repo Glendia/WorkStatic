@@ -35,8 +35,3 @@ features:
 
  
 <!-- 自定义组件 -->
-<script setup>
-import home from './components/home.vue';
-</script>
- 
-<home />
