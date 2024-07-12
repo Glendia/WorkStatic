@@ -19,3 +19,12 @@
 1. 官网：[WorkStatic Official Website](https://www.workstatic.cn)
 2. 文档：[WorkStatic Docs](https://www.workstatic.cn/guide/)
 3. 讨论区：[Github issues](https://github.com/Glendia/WorkStatic/issues)
+## 使用阿里云CDN网络分发
+* CDN链接
+```
+https://cdn.workstatic.cn
+```
+* CDN链接格式
+```
+https://cdn.workstatic.cn/your_username/path/filename.file format
+```
