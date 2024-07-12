@@ -16,7 +16,7 @@
 2. 你需要更新文档，让互联网同僚会使用你的数据
 3. 如果不需要使用，请及时删除腾出空间
 ## 官网
-1. 官网：[WorkStatic Official Website](https://www.workstatic.cn)
+1. 官网：[WorkStatic Official Website](https://www.workstatic.cn)   [Vercel](https://work-static-liard.vercel.app/)
 2. 文档：[WorkStatic Docs](https://www.workstatic.cn/guide/)
 3. 讨论区：[Github issues](https://github.com/Glendia/WorkStatic/issues)
 ## 使用阿里云CDN网络分发
