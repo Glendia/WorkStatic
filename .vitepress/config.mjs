@@ -27,9 +27,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
     ],
+    outline: {
+      level: [2, 6],
+      label: '目录'
+    },
+    search: {
+      provider: 'local'
+    },
+    i18nRouting: true,
     footer: {
       message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559号</a>',
-      copyright: 'Copyright © 2022-${new Date().getFullYear()}  <a href="/">WorkStatic</a> All Rights Reserved.'
+      copyright: 'Copyright © 2022-2024 <a href="/">WorkStatic</a> All Rights Reserved.'
     }
-  }
-})

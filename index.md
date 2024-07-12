@@ -32,3 +32,11 @@ features:
     title: 阿里云DNS️
     details: 稳定可靠、具备强大的安全防护能力以及支持智能解析技术。
 ---
+
+ 
+<!-- 自定义组件 -->
+<script setup>
+import home from './components/home.vue';
+</script>
+ 
+<home />
