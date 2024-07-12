@@ -1,4 +1,11 @@
 /* custom.css */
+@font-face {
+  font-family: 'DingTalk';
+  src: url('./DingTalk-JinBuTi.woff2') format('woff2'),
+       url('./DingTalk-JinBuTi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* 白天模式 */
 @media (prefers-color-scheme: light) {
@@ -57,6 +64,6 @@
 }
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-font-family-base: 'DingTalk';/* normal text font */
-  --vp-font-family-mono: 'DingTalk';/* code font */
+  --vp-font-family-base: 'DingTalk',sans-serif;/* normal text font */
+  --vp-font-family-mono: 'DingTalk',sans-serif;/* code font */
 }
