@@ -49,3 +49,14 @@
   --vp-c-brand-dark: var(--vp-c-purple-dark);
   --vp-c-brand-darker: var(--vp-c-purple-darker);
 }
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #326ffd;
+  --vp-c-brand-2: #5b8cfd;
+  --vp-c-brand-3: #84a9fe;
+}
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-font-family-base: /* normal text font */
+  --vp-font-family-mono: /* code font */
+}
