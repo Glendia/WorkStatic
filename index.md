@@ -5,14 +5,15 @@ layout: home
 hero:
   name: "WorkStatic"
   text: "免费CDN内容分发托管平台"
-  tagline: My great project tagline
+  tagline: 自由 方便。快捷。迅速
+  image: /images/hero.svg
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 文档
+      link: /guide/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 资源
+      link: /sources/
 
 features:
   - title: Feature A
