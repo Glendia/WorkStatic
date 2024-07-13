@@ -4,9 +4,9 @@ export const sidebar ={
         {
           text: '博客',
           items: [
-            { text: '列表', link: '/guide/' },
-            { text: '第一章', link: '/guide/one' },
-            { text: '第二章', link: '/guide/two' }
+            { text: '列表', link: '/posts/' },
+            { text: '第一章', link: '/posts/pages-1' },
+            { text: '第二章', link: '/posts/pages-2'}
           ]
         }
 ]
