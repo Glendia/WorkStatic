@@ -1,11 +1,45 @@
 export const sidebar = {
     '/posts/': [
     {
-        text: '博客',
+        text: '2024',
         collapsed: false,
         items: [
         {
-            text: '2024',
+            text: '第三章',
+            link: '/posts/',
+        },
+        {
+            text: '第一章',
+            link: '/posts/pages-1',
+        },
+        {
+            text: '第二章',
+            link: '/posts/pages-2',
+        }, ],
+    },
+    {
+        text: '2023',
+        collapsed: false,
+        items: [
+        {
+            text: 'github',
+            link: '/posts/',
+        },
+        {
+            text: '第一章',
+            link: '/posts/pages-1',
+        },
+        {
+            text: '第二章',
+            link: '/posts/pages-2',
+        }, ],
+    },
+    {
+        text: '2022',
+        collapsed: false,
+        items: [
+        {
+            text: 'tailwindCSS',
             link: '/posts/',
         },
         {
@@ -19,12 +53,39 @@ export const sidebar = {
     }, ],
     '/guide/': [
     {
-        text: '文档',
+        text: '介绍',
         collapsed: false,
         items: [
         {
             text: '前言',
             link: '/guide/',
         }, ],
-    }],
+    },
+    {
+        text: '快速上手',
+        collapsed: false,
+        items: [
+        {
+            text: '前言',
+            link: '/guide/',
+        }, ],
+    },
+    {
+        text: '设置',
+        collapsed: false,
+        items: [
+        {
+            text: '前言',
+            link: '/guide/',
+        }, ],
+    },
+    {
+        text: '常见问题',
+        collapsed: false,
+        items: [
+        {
+            text: '前言',
+            link: '/guide/',
+        }, ],
+    }, ],
 }
