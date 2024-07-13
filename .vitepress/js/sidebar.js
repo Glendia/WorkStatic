@@ -9,7 +9,7 @@ export const sidebar =[
             { text: '第一章', link: '/posts/pages-1' },
             { text: '第二章', link: '/posts/pages-2'}
           ]
-        }
+        },
 ]
 }
 ]
