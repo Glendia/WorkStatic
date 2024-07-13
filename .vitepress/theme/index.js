@@ -9,7 +9,7 @@ import './styles/fonts.css'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 //vue components
-import App from './components/App.vue'
+//import App from './components/App.vue'
 
 export default {
   extends: DefaultTheme,
@@ -20,6 +20,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
    app.use(ElementPlus)
-   app.component('App')
+//   app.component('App')
   }
 }
