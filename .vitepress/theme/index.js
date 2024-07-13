@@ -1,14 +1,16 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme-without-fonts'
-import './style.css'
+//styles
+import './styles/style.css'
 import './styles/custom.css'
 import './styles/fonts.css'
-
+//npm package
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-//import App from './components/Home.vue'
-/** @type {import('vitepress').Theme}theme-without-fonts' */
+//vue components
+import App from './components/App.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -18,5 +20,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
    app.use(ElementPlus)
+   app.component('App')
   }
 }
