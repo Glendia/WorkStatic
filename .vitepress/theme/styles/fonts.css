@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'PingFang SC';
+    src: url('https://fonts.workstatic.cn/PingFangSC/woff2/PingFangSC-Regular.woff2') format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DingTalk';
+    src: url('./DingTalk-JinBuTi.woff2') format('woff2'),
+         url('./DingTalk-JinBuTi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }

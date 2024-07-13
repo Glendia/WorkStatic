@@ -1,4 +1,41 @@
 export const sidebar = {
+    '/guide/': [
+        {
+            collapsed: false,
+            items: [
+            {
+                text: '前言',
+                link: '/guide/',
+            }, 
+            {
+                text: '规范',
+                link: '/guide/norm',
+            },
+            {
+                text: '快速上手',
+                link: '/guide/norm',
+            },
+        ],
+        },
+        
+        {
+            text: '其他',
+            items: [
+            {
+                text: '常见问题',
+                link: '/guide/problem',
+            }, 
+            {
+                text: 'bug',
+                link: '/guide/bug',
+            },
+            {
+                text: '赞赏',
+                link: '/guide/sponsor',
+            },
+        ],
+        }, ],
+
     '/posts/': [
     {
         text: '2024',
@@ -51,41 +88,5 @@ export const sidebar = {
             link: '/posts/pages-2',
         }, ],
     }, ],
-    '/guide/': [
-    {
-        text: '介绍',
-        collapsed: false,
-        items: [
-        {
-            text: '前言',
-            link: '/guide/',
-        }, ],
-    },
-    {
-        text: '快速上手',
-        collapsed: false,
-        items: [
-        {
-            text: '前言',
-            link: '/guide/',
-        }, ],
-    },
-    {
-        text: '设置',
-        collapsed: false,
-        items: [
-        {
-            text: '前言',
-            link: '/guide/',
-        }, ],
-    },
-    {
-        text: '常见问题',
-        collapsed: false,
-        items: [
-        {
-            text: '前言',
-            link: '/guide/',
-        }, ],
-    }, ],
+
 }

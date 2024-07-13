@@ -1,73 +1,26 @@
 /* custom.css */
+/* tailwindcss */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'DingTalk';
-  src: url('./DingTalk-JinBuTi.woff2') format('woff2'),
-       url('./DingTalk-JinBuTi.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* 白天模式 */
-@media (prefers-color-scheme: light) {
-  .vp-nav {
-    background: rgba(255, 255, 255, 0.7); /* 背景颜色和透明度 */
-    backdrop-filter: blur(8px); /* 高斯模糊效果 */
-    -webkit-backdrop-filter: blur(8px); /* Safari 和 Chrome */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* 边框 */
-  }
-}
-
-/* 黑暗模式 */
-@media (prefers-color-scheme: dark) {
-  .vp-nav {
-    background: rgba(0, 0, 0, 0.7); /* 背景颜色和透明度 */
-    backdrop-filter: blur(8px); /* 高斯模糊效果 */
-    -webkit-backdrop-filter: blur(8px); /* Safari 和 Chrome */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* 边框 */
-  }
-}
+/* 主页标题 */  
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #326ffd);
-}
-/* Color Base */
-:root {
-  --vp-c-purple: #b185db;
-  --vp-c-purple-light: #c19ee0;
-  --vp-c-purple-lighter: #d2b7e5;
-  --vp-c-purple-dark: #a06cd5;
-  --vp-c-purple-darker: #9163cb;
-  
-  /* 设置字体颜色 */
-  /* --vp-home-hero-name-color: transparent; */
-  /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
-  
-  /* 设置右图像渐变 */
-  --vp-home-hero-image-background-image: linear-gradient( -45deg, #8e99ee 50%, #ffffff 50% );
+  /* 主页图片背景 */
+  --vp-home-hero-image-background-image: -webkit-linear-gradient(120deg, #326ffd,#bd34fe);
   --vp-home-hero-image-filter: blur(150px);
- 
 }
- 
-/* Color Theme */
+/* 主页按钮颜色 */
 :root {
-  --vp-c-brand: var(--vp-c-purple);
-  --vp-c-brand-light: var(--vp-c-purple-light);
-  --vp-c-brand-lighter: var(--vp-c-purple-lighter);
-  --vp-c-brand-dark: var(--vp-c-purple-dark);
-  --vp-c-brand-darker: var(--vp-c-purple-darker);
-}
-/* .vitepress/theme/custom.css */
-:root {
-  --vp-c-brand-1: #84a9fe;
+  --vp-c-brand-1: #326ffd;
   --vp-c-brand-2: #5b8cfd;
   --vp-c-brand-3: #326ffd;
 }
-/* .vitepress/theme/custom.css */
+
+/* 主页字体 */
 :root {
-  --vp-font-family-base: 'DingTalk',sans-serif;/* normal text font */
-  --vp-font-family-mono: 'DingTalk',sans-serif;/* code font */
+  --vp-font-family-base: 'PingFang SC',sans-serif;
+  --vp-font-family-mono: 'PingFang SC',sans-serif;
 }
