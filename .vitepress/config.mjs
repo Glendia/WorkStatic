@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-//import {algolia} from "./js/algolia.js";
+import {algolia} from "./js/algolia.js";
 //import {carbonAds} from "./js/carbonAds.js";
 //import { footer } from "./js/footer.js";
 import { head } from "./js/head.js";
@@ -24,16 +24,12 @@ export default defineConfig({
   themeConfig: {
   logo: '/images/hero.svg',
     nav: nav,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Glendia/Workstatic' }
-    ],
+    socialLinks: socialLinks,
     outline: {
       level: [2, 6],
       label: '目录'
     },
-    search: {
-      provider: 'local'
-    },
+    search: algolia,
     i18nRouting: true,
     footer: {
       message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559号</a>',
