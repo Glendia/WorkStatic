@@ -7,7 +7,7 @@ import { head } from './js/head.js';//页头
 import { nav } from './js/nav.js';//导航栏
 import { sidebar } from './js/sidebar.js';//侧边栏
 import { socialLinks } from './js/socialLinks.js';//社交链接
-//import { markdown } from './js/markdown.js';//markdown配置
+import { markdown } from './js/markdown.js';//markdown配置
 import { sitemap } from './js/sitemap.js';//站点地图
 export default defineConfig({
   lang: 'zh-CN',//语言
@@ -22,7 +22,7 @@ export default defineConfig({
   ignoreDeadLinks: true, //忽略死链接
   metaChunks: true, //压缩js
   appearance: true, //暗黑模式
-  //markdown: markdown,//markdown配置
+  markdown: markdown,//markdown配置
   head: head,//浏览器加载头部
   metaChunk: true,//内容提取到单独的js文件中，页面加载更快
   sitemap: sitemap,//站点地图
