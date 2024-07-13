@@ -1,4 +1,4 @@
-export const footer = {
-  message: 'Released under the MIT License.',
-  copyright: 'Copyright © 2022-present <a href="//blog.oisx.cn">思行工坊</a>'
-}
+export const footer={
+      message: '备案号:<a href="https://beian.miit.gov.cn/">沪ICP备2023012559号</a>',
+      copyright: 'Copyright © 2022-2024 <a href="/">WorkStatic</a> All Rights Reserved.'
+    }

@@ -1,5 +1,6 @@
 //.vitepress/js/sidebar.js
-export const sidebar ={
+export const sidebar =[
+    {
       '/posts/': [
         {
           text: '博客',
@@ -11,3 +12,4 @@ export const sidebar ={
         }
 ]
 }
+]
