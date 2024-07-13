@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* custom.css */
 @font-face {
   font-family: 'DingTalk';
