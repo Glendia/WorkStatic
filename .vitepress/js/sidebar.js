@@ -2,9 +2,10 @@ export const sidebar = {
     '/posts/': [
     {
         text: '博客',
+        collapsed: false,
         items: [
         {
-            text: '博客',
+            text: '2024',
             link: '/posts/',
         },
         {
@@ -19,6 +20,7 @@ export const sidebar = {
     '/guide/': [
     {
         text: '文档',
+        collapsed: false,
         items: [
         {
             text: '前言',
