@@ -12,6 +12,7 @@ export const nav =[
           }
         ]
       },
+      { text: '📝博客', link: '/posts/'},
       { text: '❤️关于', link: '/about/'},
       { text: '🔥讨论', link: 'https://github.com/Glendia/WorkStatic/issues'}
 ]
