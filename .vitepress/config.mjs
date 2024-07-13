@@ -4,9 +4,9 @@ import {algolia} from "./js/algolia.js";
 //import { footer } from "./js/footer.js";
 import { head } from "./js/head.js";
 import { nav } from "./js/nav.js";
-//import { search } from "./js/search.js";
+import { search } from "./js/algolia.js";
 //import { sidebar } from "./js/sidebar.js";
-//import { socialLinks } from "./js/socialLinks.js";
+import { socialLinks } from "./js/socialLinks.js";
 //import { markdown } from "./js/markdown.js";
 export default defineConfig({
   base: '/',
