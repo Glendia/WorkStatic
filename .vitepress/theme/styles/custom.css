@@ -21,6 +21,6 @@
 
 /* 主页字体 */
 :root {
-  --vp-font-family-base: 'DingTalk',sans-serif;
-  --vp-font-family-mono: 'DingTalk',sans-serif;
+  --vp-font-family-base: 'PingFang SC',sans-serif;
+  --vp-font-family-mono: 'PingFang SC',sans-serif;
 }
